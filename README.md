@@ -38,7 +38,7 @@ Example of output (shortened to only show one individual with the stop and one w
 3  NW_019170535.1:1119928	NW_019170535.1:1119926-Tag  Tinaja2B  G/G  Tinaja3B  G/G
 ```
 
-## **Step 2: Check PTCs ** 
+## **Step 2: Check PTCs** 
 ### **check_PTCs_forward.pl** and **check_PTCs_reverse.pl**
 These scripts take the three genotype calls across the putative PTC, split each allele (eg. T/T is split to T and T individually) and generates each possible phasing combination of alleles. If a PTC is present and produced in every possible phasing, the PTC passes the check. Failed PTCs are also output as a sanity check that things are working properly. PTCs which pass the check in 1+ individual (or whatever parameters you want) can then be pulled out from this file. These scripts are run with the corresponding output files from the last step as input and ouputs a final file indicating whether each putative PTC in each individual passes or fails the check. 
 
