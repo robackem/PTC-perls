@@ -1,5 +1,5 @@
 # PTC-perls
-Custom perl scripts used for confirming presence of premature termination codons (PTCs) in Astyanax mexicanus cavefish whole genome sequences identified by Ensembl Variant Effect Predictor (VEP) v.100
+Custom perl scripts used for confirming presence of premature termination codons (PTCs) in _Astyanax mexicanus_ cavefish whole genome sequences identified by Ensembl Variant Effect Predictor (VEP) v.100
 
 **Note:** Generate a usage statement for any of my scripts using 
 
